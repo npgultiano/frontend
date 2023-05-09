@@ -1,0 +1,23 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend application using Electron with integration of openAI API and Supabase.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npgultiano/frontend.git"
+  },
+  "author": "Navy P. Gultiano",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npgultiano/frontend/issues"
+  },
+  "homepage": "https://github.com/npgultiano/frontend#readme",
+  "devDependencies": {
+    "electron": "^24.2.0"
+  }
+}
