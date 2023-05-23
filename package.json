@@ -19,5 +19,9 @@
   "homepage": "https://github.com/npgultiano/frontend#readme",
   "devDependencies": {
     "electron": "^24.2.0"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "toastify-js": "^1.12.0"
   }
 }
