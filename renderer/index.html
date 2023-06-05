@@ -11,21 +11,42 @@
       content="default-src 'self'; script-src 'self'"
     />
     <title>Notes to Summary App</title>
+    <link href="./css/bootstrap/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Notes to Summary</h1>
-    <div>
+
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Active</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled">Disabled</a>
+      </li>
+    </ul>
+    <div class="container bg-info bg-opacity-25 border border-info p-5 mt-2">
+      
+
+      <h1 class="text-center text-primary">Notes to Summary</h1>
+
       <form id="form_notes">
-        <textarea name="notes" placeholder="Enter a sentence"></textarea>
+        <label class="form_label" for="summarize">Notes:</label><br>
+        <textarea class="form-control" name="notes" placeholder="Enter a sentence"></textarea>
         <br>
-        <button type="submit">Submit</button>
+        <button class="btn btn-primary mb-3 align-slef-center" type="submit">Submit</button>
       </form>
       <br>
       <div>
-        <label for="summarize">Summarized Note:</label><br>
-        <textarea id="summarize" rows="4" readonly></textarea>
+        <label class="form_label" for="summarize">Summarized Note:</label><br>
+        <textarea class="form-control" id="summarize" rows="4" readonly></textarea>
       </div>
     </div>
+    <script src="./js/bootstrap/bootstrap.bundle.min.js" ></script>
   </body>
   <script src="./js/renderer.js"></script>
 </html>
